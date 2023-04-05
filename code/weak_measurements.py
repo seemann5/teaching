@@ -1,7 +1,10 @@
 #
 # Author: Victor Gitton
 # Course: Advanced Topics in Quantum information theory 2023, ETH Zurich
-# 
+#
+# Run with
+# python3 weak_measurements.py
+#
 
 # PARAMETERS -------------
 
