@@ -10,7 +10,7 @@
 # The r_z component of the density matrix rho
 rz_rho = 0.42
 # The target worst case single-qubit fidelity, which fixes the measurement
-worst_case_fidelity = 0.99
+worst_case_fidelity = 0.95
 # The number of qubits
 N_qubits = 10000
 
@@ -134,7 +134,7 @@ def decorate(ax):
     else:
         plot_vert_line_discrete(ax, -1., "darkgrey")
     if xlim[1] < 1.:
-        ax.set_xlim(xmin =  1.)
+        ax.set_xlim(xmax =  1.)
     else:
         plot_vert_line_discrete(ax,  1., "darkgrey")
 
